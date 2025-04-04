@@ -17,34 +17,6 @@
 - Windows 7/8/10/11
 - .NET 6.0 运行时
 
-## 安装和运行方法
-
-### 方法一：直接运行程序
-
-1. 双击项目根目录中的 `启动音频元数据编辑器.bat` 文件
-2. 或者直接进入 `Release` 文件夹，双击 `AudioMetadataEditor.exe` 运行程序
-
-### 方法二：从源代码编译
-
-1. 确保已安装 .NET 6.0 SDK
-2. 打开命令行，进入项目目录
-3. 运行以下命令编译和运行项目：
-   ```
-   dotnet build
-   dotnet run
-   ```
-
-### 项目结构
-
-```
-AME project/
-├── AudioMetadataEditor.csproj  (项目文件)
-├── Release/                   (可执行文件目录)
-├── build/                     (编译相关文件)
-├── docs/                      (文档)
-├── src/                       (源代码)
-└── 启动音频元数据编辑器.bat  (启动脚本)
-```
 
 ## 使用方法
 
