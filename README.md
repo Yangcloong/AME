@@ -24,33 +24,7 @@
 
 ## 安装方法
 
-### 方法一：使用独立可执行文件（推荐）
-
-1. 从[Releases](https://github.com/yourusername/AudioMetadataEditor/releases)页面下载最新的发布版本
-2. 解压缩下载的文件
-3. 双击 `AudioMetadataEditor.exe` 或 `启动音频元数据编辑器.bat` 运行程序
-
-### 方法二：从源代码编译
-
-1. 确保已安装 [.NET 6.0 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
-2. 克隆或下载此仓库
-   ```bash
-   git clone https://github.com/yourusername/AudioMetadataEditor.git
-   ```
-3. 进入项目目录
-   ```bash
-   cd AudioMetadataEditor
-   ```
-4. 编译项目
-   ```bash
-   dotnet build
-   ```
-5. 运行项目
-   ```bash
-   dotnet run
-   ```
-
-## 使用方法
+将所有内容文件置于你的某一文件夹中，然后双击 `启动音频元数据编辑器.bat` 运行程序
 
 ### 添加文件
 
